@@ -1,0 +1,41 @@
+body {
+  font-family: "Dancing Script", cursive;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-align: center;
+  margin-top: 100px;
+  background-color: #f9e7f6;
+  color: #f04d5d;
+}
+
+#coracao {
+  width: 300px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+#coracao:hover {
+  transform: scale(1.1);
+}
+
+#sorte {
+  margin-top: 20px;
+  font-size: 1.2em;
+  color: #f04d5d;
+  min-height: 50px;
+}
+
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+  background-color: #f04d5d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #c23e4b;
+}
